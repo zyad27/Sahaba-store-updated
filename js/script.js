@@ -1,6 +1,9 @@
 const navBar = document.querySelector("#navBar")
 const subForm = document.querySelector("#subForm")
 const pageUp = document.querySelector("#pageUp")
+const filterButtons = document.querySelectorAll(".prod-filter-btns")
+const filterCards = document.querySelectorAll(".all-products-card")
+const contactForm = document.querySelector("#contactForm")
 
 window.addEventListener("scroll", ()=>{
     if ((window.scrollY) > 40) {
@@ -42,4 +45,30 @@ if(pageUp){
             behavior: "smooth"
         })
     })
+}
+
+
+if(filterButtons){
+    filterButtons.forEach( (btn) => {
+        btn.addEventListener("click", () => {
+            filterButtons.forEach(button=>{
+                button.classList.remove("active-btn")
+            })
+            btn.classList.add("active-btn")
+    
+            filterCards.forEach( card => {
+                if((card.dataset.name === btn.dataset.name) || btn.dataset.name == "all"){
+                    card.classList.remove("d-none")
+                }
+                else {
+                    card.classList.add("d-none")
+                }
+            })
+        })
+    })
+    
+}
+
+if(contactForm){
+    
 }

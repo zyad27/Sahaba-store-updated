@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sahaba</title>
+    <title>Sahaba | products</title>
     <link rel="icon" href="images/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,15 +64,180 @@
         </div>
     </nav>
 
-    <article></article>
     <section id="allProductsCover" class="container-fluid p-0 position-relative bg-black">
         <div class="opacity-25">
             <img src="images/all-products/cover.png" alt="" class="img-fluid">
         </div>
         <div class="producs-description d-flex flex-column justify-content-center align-items-center">
-            <h2 class="text-white">SAHABA</h2>
+            <h2 class="text-white border-bottom border-primary border-2 pb-2 mb-3">SAHABA</h2>
             <h4 class="text-white">Clothes Store</h4>
             <p class="slogan text-white">Make Imagination Awesome</p>
+        </div>
+    </section>
+
+    <section id="allProducts" class="container py-3">
+        <div class="d-flex justify-content-center">
+            <button id="all" data-name="all" class="btn btn-primary me-3 border-2 border-primary prod-filter-btns ">All</button>
+            <button id="men" data-name="men" class="btn btn-primary me-3 border-2 border-primary prod-filter-btns ">Men</button>
+            <button id="women" data-name="women" class="btn btn-primary me-3 border-2 border-primary prod-filter-btns">Women</button>
+            <button id="kids" data-name="kids" class="btn btn-primary border-2 border-primary prod-filter-btns">Kids</button>
+        </div>
+        <div class="row my-3">
+            <!-- ----------- card start -------------- -->
+            <div class="col-md-4 col-6 p-4 all-products-card" data-name="men">
+                <div class="position-relative overflow-hidden product-card shadow">
+                    <img src="images/all-products/product-m-1.png" alt="" class="img-fluid rounded">
+                    <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
+                    <a class="position-absolute prod-cart-icon" title="Add to Favourite"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
+                    <div class="text-center position-absolute bg-white text-dark w-100 prod-price rounded-bottom py-3 d-flex justify-content-evenly align-items-center">
+                        <p class="m-0 border-bottom border-primary">300 EGP</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------- card end -------------- -->
+            <!-- ----------- card start -------------- -->
+            <div class="col-md-4 col-6 p-4 all-products-card" data-name="women">
+                <div class="position-relative overflow-hidden product-card  shadow">
+                    <img src="images/all-products/product-w-1.png" alt="" class="img-fluid rounded">
+                    <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
+                    <a class="position-absolute prod-cart-icon" title="Add to Favourite"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
+                    <div class="text-center position-absolute bg-white text-dark w-100 prod-price rounded-bottom py-3 d-flex justify-content-evenly align-items-center">
+                        <p class="m-0 border-bottom border-primary">450 EGP</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------- card end -------------- -->
+            <!-- ----------- card start -------------- -->
+            <div class="col-md-4 col-6 p-4 all-products-card" data-name="kids">
+                <div class="position-relative overflow-hidden product-card  shadow">
+                    <img src="images/all-products/product-k-1.png" alt="" class="img-fluid rounded">
+                    <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
+                    <a class="position-absolute prod-cart-icon" title="Add to Favourite"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
+                    <div class="text-center position-absolute bg-white text-dark w-100 prod-price rounded-bottom py-3 d-flex justify-content-evenly align-items-center">
+                        <p class="m-0 border-bottom border-primary">330 EGP</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------- card end -------------- -->
+            <!-- ----------- card start -------------- -->
+            <div class="col-md-4 col-6 p-4 all-products-card" data-name="kids">
+                <div class="position-relative overflow-hidden product-card  shadow">
+                    <img src="images/all-products/product-k-2.png" alt="" class="img-fluid rounded">
+                    <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
+                    <a class="position-absolute prod-cart-icon" title="Add to Favourite"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
+                    <div class="text-center position-absolute bg-white text-dark w-100 prod-price rounded-bottom py-3 d-flex justify-content-evenly align-items-center">
+                        <p class="m-0 border-bottom border-primary">330 EGP</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------- card end -------------- -->
+            <!-- ----------- card start -------------- -->
+            <div class="col-md-4 col-6 p-4 all-products-card" data-name="kids">
+                <div class="position-relative overflow-hidden product-card  shadow">
+                    <img src="images/all-products/product-k-3.png" alt="" class="img-fluid rounded">
+                    <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
+                    <a class="position-absolute prod-cart-icon" title="Add to Favourite"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
+                    <div class="text-center position-absolute bg-white text-dark w-100 prod-price rounded-bottom py-3 d-flex justify-content-evenly align-items-center">
+                        <p class="m-0 border-bottom border-primary">330 EGP</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------- card end -------------- -->
+            <!-- ----------- card start -------------- -->
+            <div class="col-md-4 col-6 p-4 all-products-card" data-name="women">
+                <div class="position-relative overflow-hidden product-card  shadow">
+                    <img src="images/all-products/product-w-2.png" alt="" class="img-fluid rounded">
+                    <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
+                    <a class="position-absolute prod-cart-icon" title="Add to Favourite"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
+                    <div class="text-center position-absolute bg-white text-dark w-100 prod-price rounded-bottom py-3 d-flex justify-content-evenly align-items-center">
+                        <p class="m-0 border-bottom border-primary">450 EGP</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------- card end -------------- -->
+            <!-- ----------- card start -------------- -->
+            <div class="col-md-4 col-6 p-4 all-products-card" data-name="men">
+                <div class="position-relative overflow-hidden product-card  shadow">
+                    <img src="images/all-products/product-m-2.png" alt="" class="img-fluid rounded">
+                    <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
+                    <a class="position-absolute prod-cart-icon" title="Add to Favourite"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
+                    <div class="text-center position-absolute bg-white text-dark w-100 prod-price rounded-bottom py-3 d-flex justify-content-evenly align-items-center">
+                        <p class="m-0 border-bottom border-primary">300 EGP</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------- card end -------------- -->
+            <!-- ----------- card start -------------- -->
+            <div class="col-md-4 col-6 p-4 all-products-card" data-name="men">
+                <div class="position-relative overflow-hidden product-card  shadow">
+                    <img src="images/all-products/product-m-3.png" alt="" class="img-fluid rounded">
+                    <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
+                    <a class="position-absolute prod-cart-icon" title="Add to Favourite"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
+                    <div class="text-center position-absolute bg-white text-dark w-100 prod-price rounded-bottom py-3 d-flex justify-content-evenly align-items-center">
+                        <p class="m-0 border-bottom border-primary">300 EGP</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------- card end -------------- -->
+            <!-- ----------- card start -------------- -->
+            <div class="col-md-4 col-6 p-4 all-products-card" data-name="women">
+                <div class="position-relative overflow-hidden product-card  shadow">
+                    <img src="images/all-products/product-w-3.png" alt="" class="img-fluid rounded">
+                    <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
+                    <a class="position-absolute prod-cart-icon" title="Add to Favourite"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
+                    <div class="text-center position-absolute bg-white text-dark w-100 prod-price rounded-bottom py-3 d-flex justify-content-evenly align-items-center">
+                        <p class="m-0 border-bottom border-primary">450 EGP</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------- card end -------------- -->
+        </div>
+    </section>
+
+    <section id="about" class="container-fluid bg-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 p-3 d-flex flex-column">
+                    <h5 class="text-dark">Contact Info</h5>
+                    <hr class="border border-primary border-1 opacity-100 w-25 mt-0">
+                    <div class="d-flex flex-column">
+                        <p><i class="fa-solid fa-location-dot me-3"></i>14 Dokki St, Giza</p>
+                        <p><i class="fa-solid fa-phone-volume me-3"></i>+20 123 456 789</p>
+                        <p><i class="fa-solid fa-envelope me-3"></i>SahabaStore@mail.com</p>
+                    </div>
+                </div>
+                <!----------------------------------------------------->
+                <div class="col-4 p-3 d-flex flex-column">
+                    <h5 class="text-dark">Help</h5>
+                    <hr class="border border-primary border-1 opacity-100 w-25 mt-0">
+                    <div class="d-flex flex-column">
+                        <p class="about-icons"><a href="contact.html" class="text-body-tertiary about-icons">Contact Us</a></p>
+                        <p class="about-icons"><a href="#" class="text-body-tertiary about-icons">Return Policy</a></p>
+                        <p class="about-icons"><a href="#" class="text-body-tertiary about-icons">Shipping</a></p>
+                        <p class="about-icons"><a href="#" class="text-body-tertiary about-icons">Help</a></p>
+                    </div>
+                </div>
+                <!----------------------------------------------------->
+                <div class="col-4 p-3 d-flex flex-column">
+                    <h5 class="text-dark">About</h5>
+                    <hr class="border border-primary border-1 opacity-100 w-25 mt-0">
+                    <div class="d-flex flex-column">
+                        <p class="about-icons"><a href="#" class="text-body-tertiary about-icons">Feedback</a></p>
+                        <p class="about-icons"><a href="#" class="text-body-tertiary about-icons">Careers</a></p>
+                        <p class="about-icons"><a href="#" class="text-body-tertiary about-icons">Take a Look</a></p>
+                    </div>
+                </div>
+                <!----------------------------------------------------->
+            </div>
         </div>
     </section>
 
