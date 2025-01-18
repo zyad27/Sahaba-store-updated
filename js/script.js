@@ -20,12 +20,12 @@ if(subForm){
             subForm.mail.nextSibling.nextSibling.innerHTML = `<p class="m-danger-color mt-2"> E-mail is required </p>`
             return false
         }
-        else if (!((subForm.mail.value).includes("@") && (subForm.mail.value).includes(".com"))){
-            subForm.mail.nextSibling.nextSibling.innerHTML = `<p class="m-danger-color mt-2"> mail should be like example@mail.com </p>`
+        else if (!(subForm.mail.value.includes("@")) || !(subForm.mail.value.includes(".com"))){
+            subForm.mail.nextSibling.nextSibling.innerHTML = `<p class="m-danger-color mt-2"> E-mail should be like example@mail.com </p>`
             return false
         }
         else{
-            subscibeForm.mail.nextSibling.nextSibling.innerHTML = " "
+            subForm.mail.nextSibling.nextSibling.innerHTML = " "
             return true
         }
     })
@@ -69,6 +69,30 @@ if(filterButtons){
     
 }
 
+const checkValidation = (form, input)=>{
+    if(!form[input].value){
+        form[input].nextSibling.nextSibling.innerHTML = `<p class="text-danger fs-80 mt-1 mb-0"> ${input} is required</p>`
+        return false
+    }
+    else{
+        form[input].nextSibling.nextSibling.innerHTML = " "
+        return true
+    }
+}
+
 if(contactForm){
-    
+    contactForm.addEventListener("submit",(e) => {
+        e.preventDefault()
+        checkValidation(contactForm, "name")
+        if(!checkValidation(contactForm, "mail")){
+            return false
+        }
+        else if (!(contactForm.mail.value.includes("@")) || !(contactForm.mail.value.includes(".com"))){
+            contactForm.mail.nextSibling.nextSibling.innerHTML = `<p class="text-danger fs-80 mt-1 mb-0"> E-mail should be like example@mail.com </p>`
+            return false
+        }
+        else{
+            contactForm.mail.nextSibling.nextSibling.innerHTML = " "
+        }
+        })
 }
