@@ -114,6 +114,12 @@ input::placeholder,textarea::placeholder{ font-size: 70%; opacity: 80%;}
     .nav-links-sec{width: 100%; margin: 1% auto;}
     .prod-price{bottom: -27%;}
     .btn{font-size: 80%;}
+    /* products page */
+    .producs-description {
+        top: 25%;
+        right: 38%;
+    }
+    #about{font-size: 70%;}
 }
 @media (max-width: 426px){
     header{font-size: 50%;}
@@ -132,4 +138,17 @@ input::placeholder,textarea::placeholder{ font-size: 70%; opacity: 80%;}
     #about {font-size: 50%;}
     .about-icns-resp {margin-right: 2% !important;}
     footer h6 {font-size: 60% !important;}
+    /* products page */
+    .producs-description h2, .producs-description h4{font-size: 70% !important;}
+    .producs-description h2{padding-bottom: 5% !important; margin-bottom: 10% !important;}
+    .slogan{font-size: 40%;}
+    .producs-description {
+        top: 25%;
+        right: 42%;
+    }
+    .prod-price{bottom: -30%; font-size: 70%;}
+    /* contact page */
+    .fields-container{display: flex; flex-direction: column;}
+    .contact-fields{width: 100%; margin-bottom: 5%;}
+    #contactForm button{width: 50%;}
 }

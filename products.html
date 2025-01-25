@@ -16,8 +16,8 @@
 <body>
     <header class="container-fluid bg-m-dark py-1">
         <div class="container">
-            <div class="row">
-                <div class="col-6 d-flex">
+            <div class="row header-container">
+                <div class="col-6 d-flex header-socials">
                     <li><a href="#" class="text-white pe-3 me-3 border-end"><i class="fa-brands fa-facebook-f"></i></a>
                     </li>
                     <li><a href="#" class="text-white pe-3 me-3 border-end"><i class="fa-brands fa-instagram"></i></a>
@@ -27,11 +27,11 @@
 
                 <div class="col-6 d-flex justify-content-end">
                     <li class="me-4 pe-3 border-end"><a href="#" class="text-white fw-light"><i
-                                class="fa-solid fa-phone-volume me-2"></i>+20 123 456 789</a></li>
+                                class="fa-solid res-icns fa-phone-volume me-2"></i>+20 123 456 789</a></li>
                     <li class="me-4 pe-3 border-end"><a href="#" class="text-white fw-light"><i
-                                class="fa-regular fa-envelope me-2"></i>Messages</a></li>
+                                class="fa-regular res-icns fa-envelope me-2"></i>Messages</a></li>
                     <li class="me-4"><a href="#" class="text-white fw-light"><i
-                                class="fa-solid fa-phone-volume me-2"></i>User Name</a></li>
+                                class="fa-solid res-icns fa-phone-volume me-2"></i>User Name</a></li>
                 </div>
             </div>
         </div>
@@ -40,23 +40,23 @@
     <nav id="navBar" class="container-fluid bg-light py-3 sticky-top">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-4 d-flex justify-content-between align-items-center">
-                    <img src="images/logo.png" alt="" class="img-fluid">
+                <div class="col-4 d-flex justify-content-between align-items-center nav-logo-sec">
+                    <img src="images/logo.png" alt="" class="img-fluid main-logo">
                     <div class="me-5">
                         <a href="" class="me-3" title="Shopping Cart"><i
-                                class="fa-solid fa-cart-shopping text-primary"></i></a>
-                        <a href="" title="Favourite"><i class="fa-regular fa-heart text-primary"></i></a>
+                                class="fa-solid res-icns fa-cart-shopping text-primary"></i></a>
+                        <a href="" title="Favourite"><i class="fa-regular res-icns fa-heart text-primary"></i></a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 nav-search-sec">
                     <form action="#" class="bg-white ps-3 border">
-                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="#"><i class="fa-solid res-icns fa-magnifying-glass"></i></a>
                         <input type="text" placeholder="What are you looking for?" class="ps-3 py-1 bg-transparent">
                     </form>
                 </div>
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-4 d-flex justify-content-center justify-self-center nav-links-sec">
                     <li class="me-4"><a href="index.html" class="m-links">Home</a></li>
-                    <li class="me-4"><a href="#products" class="m-links">products</a></li>
+                    <li class="me-4"><a href="products.html" class="m-links">products</a></li>
                     <li class="me-4"><a href="contact.html" class="m-links">Contact Us</a></li>
                     <li class="me-4"><a href="#about" class="m-links">About</a></li>
                 </div>
@@ -85,7 +85,7 @@
         <div class="row my-3">
             <!-- ----------- card start -------------- -->
             <div class="col-md-4 col-6 p-4 all-products-card" data-name="men">
-                <div class="position-relative overflow-hidden product-card shadow">
+                <div class="position-relative overflow-hidden product-card shadow rounded">
                     <img src="images/all-products/product-m-1.png" alt="" class="img-fluid rounded">
                     <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
                     <a class="position-absolute prod-cart-icon" title="Add to Cart"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
@@ -98,7 +98,7 @@
             <!-- ----------- card end -------------- -->
             <!-- ----------- card start -------------- -->
             <div class="col-md-4 col-6 p-4 all-products-card" data-name="women">
-                <div class="position-relative overflow-hidden product-card  shadow">
+                <div class="position-relative overflow-hidden product-card  shadow rounded">
                     <img src="images/all-products/product-w-1.png" alt="" class="img-fluid rounded">
                     <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
                     <a class="position-absolute prod-cart-icon" title="Add to Cart"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
@@ -111,7 +111,7 @@
             <!-- ----------- card end -------------- -->
             <!-- ----------- card start -------------- -->
             <div class="col-md-4 col-6 p-4 all-products-card" data-name="kids">
-                <div class="position-relative overflow-hidden product-card  shadow">
+                <div class="position-relative overflow-hidden product-card  shadow rounded">
                     <img src="images/all-products/product-k-1.png" alt="" class="img-fluid rounded">
                     <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
                     <a class="position-absolute prod-cart-icon" title="Add to Cart"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
@@ -124,7 +124,7 @@
             <!-- ----------- card end -------------- -->
             <!-- ----------- card start -------------- -->
             <div class="col-md-4 col-6 p-4 all-products-card" data-name="kids">
-                <div class="position-relative overflow-hidden product-card  shadow">
+                <div class="position-relative overflow-hidden product-card  shadow rounded">
                     <img src="images/all-products/product-k-2.png" alt="" class="img-fluid rounded">
                     <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
                     <a class="position-absolute prod-cart-icon" title="Add to Cart"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
@@ -137,7 +137,7 @@
             <!-- ----------- card end -------------- -->
             <!-- ----------- card start -------------- -->
             <div class="col-md-4 col-6 p-4 all-products-card" data-name="kids">
-                <div class="position-relative overflow-hidden product-card  shadow">
+                <div class="position-relative overflow-hidden product-card  shadow rounded">
                     <img src="images/all-products/product-k-3.png" alt="" class="img-fluid rounded">
                     <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
                     <a class="position-absolute prod-cart-icon" title="Add to Cart"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
@@ -150,7 +150,7 @@
             <!-- ----------- card end -------------- -->
             <!-- ----------- card start -------------- -->
             <div class="col-md-4 col-6 p-4 all-products-card" data-name="women">
-                <div class="position-relative overflow-hidden product-card  shadow">
+                <div class="position-relative overflow-hidden product-card  shadow rounded">
                     <img src="images/all-products/product-w-2.png" alt="" class="img-fluid rounded">
                     <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
                     <a class="position-absolute prod-cart-icon" title="Add to Cart"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
@@ -163,7 +163,7 @@
             <!-- ----------- card end -------------- -->
             <!-- ----------- card start -------------- -->
             <div class="col-md-4 col-6 p-4 all-products-card" data-name="men">
-                <div class="position-relative overflow-hidden product-card  shadow">
+                <div class="position-relative overflow-hidden product-card  shadow rounded">
                     <img src="images/all-products/product-m-2.png" alt="" class="img-fluid rounded">
                     <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
                     <a class="position-absolute prod-cart-icon" title="Add to Cart"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
@@ -176,7 +176,7 @@
             <!-- ----------- card end -------------- -->
             <!-- ----------- card start -------------- -->
             <div class="col-md-4 col-6 p-4 all-products-card" data-name="men">
-                <div class="position-relative overflow-hidden product-card  shadow">
+                <div class="position-relative overflow-hidden product-card  shadow rounded">
                     <img src="images/all-products/product-m-3.png" alt="" class="img-fluid rounded">
                     <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
                     <a class="position-absolute prod-cart-icon" title="Add to Cart"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
@@ -189,7 +189,7 @@
             <!-- ----------- card end -------------- -->
             <!-- ----------- card start -------------- -->
             <div class="col-md-4 col-6 p-4 all-products-card" data-name="women">
-                <div class="position-relative overflow-hidden product-card  shadow">
+                <div class="position-relative overflow-hidden product-card  shadow rounded">
                     <img src="images/all-products/product-w-3.png" alt="" class="img-fluid rounded">
                     <a class="position-absolute prod-fav-icon" title="Add to Favourite"><i class="fa-regular fa-heart text-primary fs-4 prod-icons"></i></a>
                     <a class="position-absolute prod-cart-icon" title="Add to Cart"><i class="fa-solid fa-cart-shopping text-primary fs-4 prod-icons"></i></a>
@@ -210,9 +210,9 @@
                     <h5 class="text-dark">Contact Info</h5>
                     <hr class="border border-primary border-1 opacity-100 w-25 mt-0">
                     <div class="d-flex flex-column">
-                        <p><i class="fa-solid fa-location-dot me-3"></i>14 Dokki St, Giza</p>
-                        <p><i class="fa-solid fa-phone-volume me-3"></i>+20 123 456 789</p>
-                        <p><i class="fa-solid fa-envelope me-3"></i>SahabaStore@mail.com</p>
+                        <p><i class="fa-solid res-icns fa-location-dot me-3 about-icns-resp"></i>14 Dokki St, Giza</p>
+                        <p><i class="fa-solid res-icns fa-phone-volume me-3 about-icns-resp"></i>+20 123 456 789</p>
+                        <p><i class="fa-solid res-icns fa-envelope me-3 about-icns-resp"></i>SahabaStore@mail.com</p>
                     </div>
                 </div>
                 <!----------------------------------------------------->

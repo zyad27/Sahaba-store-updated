@@ -18,8 +18,8 @@
 <body>
     <header class="container-fluid bg-m-dark py-1">
         <div class="container">
-            <div class="row">
-                <div class="col-6 d-flex">
+            <div class="row header-container">
+                <div class="col-6 d-flex header-socials">
                     <li><a href="#" class="text-white pe-3 me-3 border-end"><i class="fa-brands fa-facebook-f"></i></a>
                     </li>
                     <li><a href="#" class="text-white pe-3 me-3 border-end"><i class="fa-brands fa-instagram"></i></a>
@@ -29,11 +29,11 @@
 
                 <div class="col-6 d-flex justify-content-end">
                     <li class="me-4 pe-3 border-end"><a href="#" class="text-white fw-light"><i
-                                class="fa-solid fa-phone-volume me-2"></i>+20 123 456 789</a></li>
+                                class="fa-solid res-icns fa-phone-volume me-2"></i>+20 123 456 789</a></li>
                     <li class="me-4 pe-3 border-end"><a href="#" class="text-white fw-light"><i
-                                class="fa-regular fa-envelope me-2"></i>Messages</a></li>
+                                class="fa-regular res-icns fa-envelope me-2"></i>Messages</a></li>
                     <li class="me-4"><a href="#" class="text-white fw-light"><i
-                                class="fa-solid fa-phone-volume me-2"></i>User Name</a></li>
+                                class="fa-solid res-icns fa-phone-volume me-2"></i>User Name</a></li>
                 </div>
             </div>
         </div>
@@ -42,23 +42,23 @@
     <nav id="navBar" class="container-fluid bg-light py-3 sticky-top">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-4 d-flex justify-content-between align-items-center">
+                <div class="col-4 d-flex justify-content-between align-items-center nav-logo-sec">
                     <img src="images/logo.png" alt="" class="img-fluid main-logo">
                     <div class="me-5">
                         <a href="" class="me-3" title="Shopping Cart"><i
-                                class="fa-solid fa-cart-shopping text-primary"></i></a>
-                        <a href="" title="Favourite"><i class="fa-regular fa-heart text-primary"></i></a>
+                                class="fa-solid res-icns fa-cart-shopping text-primary"></i></a>
+                        <a href="" title="Favourite"><i class="fa-regular res-icns fa-heart text-primary"></i></a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 nav-search-sec">
                     <form action="#" class="bg-white ps-3 border">
-                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="#"><i class="fa-solid res-icns fa-magnifying-glass"></i></a>
                         <input type="text" placeholder="What are you looking for?" class="ps-3 py-1 bg-transparent">
                     </form>
                 </div>
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-4 d-flex justify-content-center justify-self-center nav-links-sec">
                     <li class="me-4"><a href="index.html" class="m-links">Home</a></li>
-                    <li class="me-4"><a href="#products" class="m-links">products</a></li>
+                    <li class="me-4"><a href="products.html" class="m-links">products</a></li>
                     <li class="me-4"><a href="contact.html" class="m-links">Contact Us</a></li>
                     <li class="me-4"><a href="#about" class="m-links">About</a></li>
                 </div>
@@ -69,18 +69,18 @@
     <section class="container d-flex align-items-center flex-column py-4">
         <h2 class="text-dark px-3 rounded-pill border-end border-primary border-2">Contact Us</h2>
         <form action="#" id="contactForm" class="d-flex flex-column justify-content-center w-100">
-            <div class="d-flex justify-content-between w-100">
-                <div class="p-1 border-bottom border-1 border-muted rounded w-30">
+            <div class="d-flex justify-content-between w-100 fields-container">
+                <div class="p-1 border-bottom border-1 border-muted rounded w-30 contact-fields">
                     <i class="fa-solid fa-user text-muted me-1 opacity-75"></i>
                     <input type="text" placeholder="Your Name" name="name">
                     <div></div>
                 </div>
-                <div class="p-1 border-bottom border-1 border-muted rounded w-30">
+                <div class="p-1 border-bottom border-1 border-muted rounded w-30 contact-fields">
                     <i class="fa-solid fa-envelope text-muted me-1 opacity-75"></i>
                     <input type="text" placeholder="Your E-mail" name="mail">
                     <div></div>
                 </div>
-                <div class="p-1 border-bottom border-1 border-muted rounded w-30">
+                <div class="p-1 border-bottom border-1 border-muted rounded w-30 contact-fields">
                     <i class="fa-solid fa-tag text-muted me-1 opacity-75"></i>
                     <input type="text" placeholder="Order number (Optional)" name="order">
                     <div></div>
@@ -98,9 +98,9 @@
                     <h5 class="text-dark">Contact Info</h5>
                     <hr class="border border-primary border-1 opacity-100 w-25 mt-0">
                     <div class="d-flex flex-column">
-                        <p><i class="fa-solid fa-location-dot me-3"></i>14 Dokki St, Giza</p>
-                        <p><i class="fa-solid fa-phone-volume me-3"></i>+20 123 456 789</p>
-                        <p><i class="fa-solid fa-envelope me-3"></i>SahabaStore@mail.com</p>
+                        <p><i class="fa-solid res-icns fa-location-dot me-3 about-icns-resp"></i>14 Dokki St, Giza</p>
+                        <p><i class="fa-solid res-icns fa-phone-volume me-3 about-icns-resp"></i>+20 123 456 789</p>
+                        <p><i class="fa-solid res-icns fa-envelope me-3 about-icns-resp"></i>SahabaStore@mail.com</p>
                     </div>
                 </div>
                 <!----------------------------------------------------->
@@ -108,8 +108,7 @@
                     <h5 class="text-dark">Help</h5>
                     <hr class="border border-primary border-1 opacity-100 w-25 mt-0">
                     <div class="d-flex flex-column">
-                        <p class="about-icons"><a href="contact.html" class="text-body-tertiary about-icons">Contact
-                                Us</a></p>
+                        <p class="about-icons"><a href="contact.html" class="text-body-tertiary about-icons">Contact Us</a></p>
                         <p class="about-icons"><a href="#" class="text-body-tertiary about-icons">Return Policy</a></p>
                         <p class="about-icons"><a href="#" class="text-body-tertiary about-icons">Shipping</a></p>
                         <p class="about-icons"><a href="#" class="text-body-tertiary about-icons">Help</a></p>
