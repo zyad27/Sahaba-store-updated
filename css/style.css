@@ -122,7 +122,14 @@ input::placeholder,textarea::placeholder{ font-size: 70%; opacity: 80%;}
     .header-container .justify-content-end {width: 80%; justify-self: end;}
     .res-icns {font-size: 80%;}
     .fs-4{font-size: 80% !important;}
-    .nav-logo-sec{width: 40%;}
-    .nav-search-sec{width: 40%; margin-left: auto;}
+    .nav-logo-sec{width: 50%;}
+    .nav-search-sec{width: 50%; margin-left: auto;}
+    .nav-search-sec form {padding-left: 0.5rem !important;}
+    .nav-search-sec input {width: 89%; padding-left: 0 !important;}
     .nav-links-sec{width: 100%; margin: 1% auto;}
+    .description-responsive {width: 100%;}
+    .slider-responsive{width: 100%;}
+    #about {font-size: 50%;}
+    .about-icns-resp {margin-right: 2% !important;}
+    footer h6 {font-size: 60% !important;}
 }
