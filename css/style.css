@@ -100,3 +100,29 @@ input::placeholder,textarea::placeholder{ font-size: 70%; opacity: 80%;}
     border-left: 0 !important;
     border-bottom: 2px solid var(--m-main-color) !important;
 }
+/* Responsive */
+@media (max-width : 1025px){
+    header, .m-links{font-size: 80%;}
+}
+@media (max-width: 769px){
+    header{font-size: 50%;}
+    .main-logo{height: 35px;}
+    .res-icns {font-size: 80%;}
+    .fs-4{font-size: 80% !important;}
+    .nav-logo-sec{width: 40%;}
+    .nav-search-sec{width: 40%; margin-left: auto;}
+    .nav-links-sec{width: 100%; margin: 1% auto;}
+    .prod-price{bottom: -27%;}
+    .btn{font-size: 80%;}
+}
+@media (max-width: 426px){
+    header{font-size: 50%;}
+    .header-container .header-socials{width: 20%;}
+    .header-socials a {margin-right: 5px !important; padding-right: 5px !important;}
+    .header-container .justify-content-end {width: 80%; justify-self: end;}
+    .res-icns {font-size: 80%;}
+    .fs-4{font-size: 80% !important;}
+    .nav-logo-sec{width: 40%;}
+    .nav-search-sec{width: 40%; margin-left: auto;}
+    .nav-links-sec{width: 100%; margin: 1% auto;}
+}
